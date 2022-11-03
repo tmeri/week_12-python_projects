@@ -25,8 +25,8 @@ print(len(AWS_Services_List))
 
 #4, Remove two specific services from the list by name or by index.
 
-del AWS_Services_List  [2]
-del AWS_Services_List  [7]
+del AWS_Services_List [2]
+del AWS_Services_List [7]
 
 #5, Print the new list and the new length of the list.
 
