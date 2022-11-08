@@ -6,7 +6,7 @@ import random
 import string
 
 
-#functiontion to determine string length
+#function to determine string length
 def EC2_namesize(size=10, string=string.ascii_letters + string.digits):
     return ''.join(random.choice(string) for _ in range(size))
 
